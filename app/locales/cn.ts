@@ -4,7 +4,7 @@ const cn = {
   WIP: "该功能仍在开发中……",
   Error: {
     Unauthorized:
-      "访问密码不正确或为空，请前往[设置](/#/settings)页输入正确的访问密码，或者填入你自己的 OpenAI API Key。",
+      "访问密码不正确或为空，请前往[设置](/#/settings)页输入正确的访问密码，获取密码请加公众号：AI动力 ",
   },
   ChatItem: {
     ChatItemCount: (count: number) => `${count} 条对话`,
@@ -96,12 +96,12 @@ const cn = {
     },
 
     Update: {
-      Version: (x: string) => `当前版本：${x}`,
+      Version: (x: string) => `获取密码请加公众号：AI动力`,
       IsLatest: "已是最新版本",
-      CheckUpdate: "检查更新",
+      CheckUpdate: "",
       IsChecking: "正在检查更新...",
       FoundUpdate: (x: string) => `发现新版本：${x}`,
-      GoToUpdate: "前往更新",
+      GoToUpdate: "",
     },
     SendKey: "发送键",
     Theme: "主题",
