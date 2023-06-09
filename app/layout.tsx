@@ -34,7 +34,7 @@ export default function RootLayout({
       <head>
         <meta name="version" content={buildConfig.commitId} />
         <link rel="manifest" href="/site.webmanifest"></link>
-        <script src="/serviceWorkerRegister.js" defer></script>
+        <script src="https://hm.baidu.com/hm.js?9d901632c310601a85e653b1847496ea" defer></script>
       </head>
       <body>{children}</body>
     </html>
