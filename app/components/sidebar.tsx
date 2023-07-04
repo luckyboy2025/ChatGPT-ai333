@@ -123,6 +123,11 @@ export function SideBar(props: { className?: string }) {
         <div className={styles["sidebar-sub-title"]}>
           欢迎来到ChatGPT的世界！
         </div>
+            <div className={styles['sidebar-sub-title']} style={{ color: 'blue' }}>
+      ·公告：7月4日系统故障，正在抢修中，修复后本公告会消失。
+              <br>无需询问，谢谢配合！   </br>
+           
+    </div>
         <div className={styles["sidebar-logo"] + " no-dark"}>
           <ChatGptIcon />
         </div>
