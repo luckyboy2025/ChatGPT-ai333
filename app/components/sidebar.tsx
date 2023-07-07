@@ -126,7 +126,7 @@ export function SideBar(props: { className?: string }) {
 
  </div>
             <div className={styles['sidebar-sub-title']} style={{ color: 'blue' }}>
-      必读→ <a href="https://docs.qq.com/doc/DQlduUlRtTGNtVFBw" target="_blank" style={{ textDecoration: 'none' }} >【重要公告】</a>
+      必读→ <a href="https://docs.qq.com/doc/DQlduUlRtTGNtVFBw">【重要公告】</a>
     </div>
         <div className={styles["sidebar-logo"] + " no-dark"}>
           <ChatGptIcon />
