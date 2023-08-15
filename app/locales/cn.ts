@@ -10,7 +10,7 @@ const cn = {
     ChatItemCount: (count: number) => `${count} 条对话`,
   },
   Chat: {
-    SubTitle: (count: number) => `与 ChatGPT 的 ${count} 条对话`,
+    SubTitle: (count: number) => `与 AI-Chat 的 ${count} 条对话`,
     Actions: {
       ChatList: "查看消息列表",
       CompressedHistory: "查看压缩后的历史 Prompt",
@@ -41,7 +41,7 @@ const cn = {
     Download: "下载文件",
     Share: "分享到 ShareGPT",
     MessageFromYou: "来自你的消息",
-    MessageFromChatGPT: "来自 ChatGPT 的消息",
+    MessageFromChatGPT: "来自 AI-Chat 的消息",
     Format: {
       Title: "导出格式",
       SubTitle: "可以导出 Markdown 文本或者 PNG 图片",
@@ -96,7 +96,7 @@ const cn = {
     },
 
     Update: {
-      Version: (x: string) => `获取ChatGPT资讯请加公众号：AI动力`,
+      Version: (x: string) => `获取GPT资讯请加公众号：AI动力`,
       IsLatest: "已是最新版本",
       CheckUpdate: "",
       IsChecking: "正在检查更新...",
