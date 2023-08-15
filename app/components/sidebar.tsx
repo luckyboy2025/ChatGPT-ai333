@@ -119,9 +119,10 @@ export function SideBar(props: { className?: string }) {
       }`}
     >
       <div className={styles["sidebar-header"]}>
-        <div className={styles["sidebar-title"]}>ChatGPT</div>
+        <div className={styles["sidebar-title"]}>AI·Chat</div>
         <div className={styles["sidebar-sub-title"]}>
           网站仅做个人学习使用！
+          请严格遵守中国法律法规！
         </div>
             <div className={styles['sidebar-sub-title']} style={{ color: 'blue' }}>
       ·请查看→ <a href="https://docs.qq.com/doc/p/ab80f91fa1b3e80699b06271a056838069ed73ed" target="_blank">【重要公告】</a>
