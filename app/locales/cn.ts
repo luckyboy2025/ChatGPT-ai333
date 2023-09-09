@@ -141,8 +141,8 @@ const cn = {
       SubTitle: "当未压缩的历史消息超过该值时，将进行压缩",
     },
     Token: {
-      Title: "API Key",
-      SubTitle: "使用自己的 Key 可绕过密码访问限制",
+      Title: "访问令牌",
+      SubTitle: "请输入您的访问令牌！",
       Placeholder: "OpenAI API Key",
     },
 
@@ -157,7 +157,7 @@ const cn = {
     },
     AccessCode: {
       Title: "访问密码",
-      SubTitle: "管理员已开启加密访问",
+      SubTitle: "请输入您的访问密码！",
       Placeholder: "请输入访问密码",
     },
     Model: "模型 (model)",
